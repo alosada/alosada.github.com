@@ -3,6 +3,36 @@
   src: url(penna.otf);
 }
 
+@media (min-width: 858px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 780px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 702px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 724px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 623px) {
+    html {
+        font-size: 22px;
+    }
+}
+
 html, body {
   height: 100%;
 }
